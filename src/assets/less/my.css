@@ -1,0 +1,75 @@
+.my .my-bg {
+  height: 180px;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my .upload-box {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.my .upload-box .van-uploader__wrapper {
+  height: 100%;
+}
+.my .upload-box .van-uploader__upload {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.my .my-info {
+  margin: 0 10px;
+  background-color: #fff;
+  position: relative;
+  top: -50px;
+  padding: 10px 10px 0 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.my .my-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+  margin-right: 20px;
+}
+.my .my-info-box {
+  width: calc(100% - 90px);
+  height: 70px;
+}
+.my .user-name {
+  color: #00adb5;
+  height: 30px;
+  font-weight: bold;
+}
+.my .user-desc {
+  font-size: 14px;
+  color: #999;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.my .list-box {
+  margin-top: 50px;
+}
+.my /deep/ .van-cell {
+  border-bottom: 1px solid #F5F6F7;
+  padding: 15px 0;
+}
+.my /deep/ .van-cell:last-child {
+  border-bottom: none;
+}
+.my /deep/ .van-cell:active {
+  background-color: transparent;
+}
+.my /deep/ .van-cell span {
+  color: #000;
+  font-size: 16px;
+}

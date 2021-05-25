@@ -1,0 +1,112 @@
+.home .home-nav {
+  display: flex;
+  line-height: 46px;
+}
+.home .t1 {
+  font-weight: bold;
+}
+.home .t2 {
+  color: #000;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.home /deep/ .home-search .van-search {
+  padding: 0;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.home /deep/ .home-search .van-icon {
+  color: #00adb5;
+}
+.home .home-content {
+  padding: 10px 10px 0 10px;
+}
+.home .banner-box {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.home .index-box {
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  display: flex;
+}
+.home .index-box > div {
+  width: 12px;
+  height: 2px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 1px;
+}
+.home .index-box > div.active {
+  background-color: #00adb5;
+}
+.home .product-box {
+  margin-top: 10px;
+}
+.home .pro-title-box {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.home .pro-title {
+  float: left;
+  padding: 0 15px;
+  height: 32px;
+  background-color: #00adb5;
+  color: #fff;
+  line-height: 32px;
+  font-size: 14px;
+  border-top-right-radius: 16px;
+}
+.home .products {
+  margin-top: 10px;
+}
+.home .pro-item {
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.home .pro-item:nth-child(2n) {
+  margin-right: 0;
+}
+.home .img-box {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.home .img-box .hot {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  height: 24px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #00adb5;
+  color: #eeeeee;
+  font-size: 12px;
+}
+.home .pro-info {
+  margin-top: 10px;
+}
+.home .pro-name {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.home .pro-price {
+  color: #00adb5;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home .pro-enname {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

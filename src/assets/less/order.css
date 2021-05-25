@@ -1,0 +1,17 @@
+.order {
+  padding-top: 46px;
+}
+.order /deep/ .van-nav-bar .van-icon {
+  color: #00adb5;
+}
+.order /deep/ .van-nav-bar__text {
+  color: #00adb5;
+}
+.order .order-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.order .bg-content {
+  background-color: transparent !important;
+  padding: 0 !important;
+}

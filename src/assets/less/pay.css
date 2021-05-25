@@ -1,0 +1,86 @@
+.pay {
+  padding-top: 46px;
+  padding-bottom: 74px;
+}
+.pay /deep/ .van-nav-bar .van-icon {
+  color: #00adb5;
+}
+.pay /deep/ .van-nav-bar__text {
+  color: #00adb5;
+}
+.pay .pay-box {
+  padding: 10px;
+}
+.pay .select-address {
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+.pay .user-info {
+  display: flex;
+  line-height: 19px;
+}
+.pay .user-box {
+  margin-top: 20px;
+}
+.pay .user-name {
+  color: #00adb5;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.pay .detail-address {
+  margin-top: 10px;
+  color: #999;
+}
+.pay .arrow {
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+.pay .order-info {
+  margin-top: 10px;
+}
+.pay /deep/ .van-button--danger {
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
+.pay /deep/ .van-address-item {
+  border-bottom: 1px solid #e8e8e8;
+}
+.pay /deep/ .van-address-item:last-child {
+  border-bottom: none;
+}
+.pay /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
+.pay /deep/ .van-tag--danger {
+  background-color: #00adb5;
+}
+.pay /deep/ .van-icon-edit {
+  display: none;
+}
+.pay .address-title {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.pay .btn-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+.pay .default-address {
+  font-size: 12px;
+  background-color: #00adb5;
+  color: #fff;
+  width: 40px;
+  text-align: center;
+  height: 20px;
+  line-height: 21px;
+  border-radius: 10px;
+  margin-left: 20px;
+}

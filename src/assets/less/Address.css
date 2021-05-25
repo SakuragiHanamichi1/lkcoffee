@@ -1,0 +1,26 @@
+.my-address /deep/ .van-nav-bar .van-icon {
+  color: #00adb5;
+}
+.my-address /deep/ .van-nav-bar__text {
+  color: #00adb5;
+}
+.my-address /deep/ .van-tag--danger {
+  background-color: #00adb5;
+}
+.my-address /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
+.my-address /deep/ .van-address-list {
+  padding: 0;
+}
+.my-address /deep/ .van-address-item {
+  border-bottom: 1px solid #e8e8e8;
+}
+.my-address /deep/ .van-address-item:last-child {
+  border-bottom: none;
+}
+.my-address /deep/ .van-button--danger {
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
